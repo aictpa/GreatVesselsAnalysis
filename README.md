@@ -25,5 +25,37 @@ Mediastinal structure measurements are important for the radiologist’s review 
 
 ## Usage
 
-For minimum requirements please check "dependencies.md" file first. This model only accepts the DICOM file and can only run on a CT pulmonary angiogram (CTPA). You have to configure the directory structure correctly to be able to run the model. 
+> For minimum requirements please check "dependencies.md" file first. 
 
+> This model only accepts the DICOM file format and can only run on a CT pulmonary angiogram (CTPA) examinations. 
+
+> You have to configure the directory structure correctly to be able to run the model. 
+
+#### Step 1: Code Downloading
+
+Please download the whole directory to your local work station.
+
+#### Step 2: Configuration of Directory Structure
+
+***Default Configuration***
+
+Please put your CTPA examinations under the "Dataset/testMultiExam"  or  "Dataset/testSingleExam" directory. Your directory structure should be as shown in the image below.
+
+![Directory Structure](directory_structure.JPG)
+
+
+> If you want to test more than one CTPAs, please put your data under the "Dataset/testMultiExam" folder. 
+
+> If you want to test a single case, please put your data under the"Dataset/testSingleExam" folder.
+
+***Optional Configuration***
+
+If you want to place or your dataset is placed in another location, please modify the code in line number 22 and 23 in "runModel.m" file as shown in the image below.
+
+
+![Dataset Path](datapath_config.JPG)
+
+
+#### Step 3: Running the Model
+
+After the configuration of the directory structure, you just need to run the "runModel.m" file. Measurements will be saved in txt file under the "Results" folder. And the model results will be illustrated in images on pop-up windows.
