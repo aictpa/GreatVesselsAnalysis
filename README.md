@@ -24,3 +24,6 @@ Mediastinal structure measurements are important for the radiologist’s review 
 **Figure 1. Flowchart of the CADe algorithm.** **(A)** A total of 700 2 mm axial CTPA image stacks were exported from the PACS server. **(B)** In the pre-processing, the linear scale value and the curvature of the CT image were calculated. **(C)** The segmentation chain consisted of four steps, starting with trachea detection followed by DAo, AAo, and PT detection. **(D)** Noise assessment and measurements of mediastinal vascular structures were reported by the system.
 
 ## Usage
+
+For minimum requirements please check "dependencies.md" file first. This model only accepts the DICOM file and can only run on a CT pulmonary angiogram (CTPA). You have to configure the directory structure correctly to be able to run the model. 
+
