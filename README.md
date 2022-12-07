@@ -1,6 +1,6 @@
-# Automated Detection, Segmentation and Measurement of Mediastinal Structures in CT Pulmonary Angiography
+# Automated Detection, Segmentation and Measurement of Major Vessels and the Trachea in CT Pulmonary Angiography
 #### A fully automated deterministic approach for mediastinal structures analysis 
-> Git repo for an unpublished manuscript of "Automated Detection, Segmentation and Measurement of Mediastinal Structures in CT Pulmonary Angiography", which is currently under review at a scientific journal.
+> Git repo for an unpublished manuscript of "Automated Detection, Segmentation and Measurement of Major Vessels and the Trachea in CT Pulmonary Angiography", which is currently under review at a scientific journal.
 
 > For more detail, please see our [Patent Cooperation Treaty (pct)](https://patents.google.com/patent/WO2022164374A1) application.
 
