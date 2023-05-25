@@ -32,14 +32,30 @@ path_aniso = fullfile(main_path, "Toolbox");
 path_regionGrowing = fullfile(main_path, "Toolbox\ThirdPartyFunctions");
 
 try 
-    if ismac
+    if ismac    
+    
+        mex -setup C++    
+        cd(path_aniso)
+        mex anisocpp.cpp
+        cd(main_path)
+
+        cd(path_regionGrowing)
+        mex RegionGrowing_mex.cpp
+        cd(main_path) 
        
-    elseif isunix
+    elseif isunix    
+    
+        cd(path_aniso)
+        mex anisocpp.cpp
+        cd(main_path)
+
+        cd(path_regionGrowing)
+        mex RegionGrowing_mex.cpp
+        cd(main_path) 
        
     elseif ispc
         
         mex -setup C++    
-
         cd(path_aniso)
         mex anisocpp.cpp
         cd(main_path)
