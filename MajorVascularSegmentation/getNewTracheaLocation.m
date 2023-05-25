@@ -44,7 +44,7 @@ endLocOFIntubation = -1;
 if (sum([stats.Area])>10)  
     im = ismember(labelmatrix(C),idx);
     B2 = B2 > 350;
-    seedPointOfIntubation = getseedpoint(imfill(im,'holes'));
+    seedPointOfIntubation = getSeedPoint(imfill(im,'holes'));
     imgIntubation = regiongrowing(B2,1,[seedPointOfIntubation(2) seedPointOfIntubation(1) sliceNoOfTrachea]);
     
     [~,~,v] = ind2sub(size(imgIntubation),find(imgIntubation == 1));
@@ -77,7 +77,7 @@ indexOfCan =  find(d == min(d));
 
 tracheaS = ismember(labelmatrix(C),indexOfCan);
 
-seedPointOfTrachea = getseedpoint(imfill(tracheaS,'holes'));
+seedPointOfTrachea = getSeedPoint(imfill(tracheaS,'holes'));
 
 end % end of function
 
