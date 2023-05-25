@@ -540,11 +540,11 @@ for iCase = 1:iScans
         %% Displaying Measurments    
         
         SDdesA1 = SDdesA{iCase};
-        SDdesA_txt = strcat("Image Noise (SD of HU in a 1 cm² circular ROI in the Descending Aorta) -> ", num2str(SDdesA1), " HU");
+        SDdesA_txt = strcat("Image Noise (SD of HU in a 1 cmÂ² circular ROI in the Descending Aorta) -> ", num2str(SDdesA1), " HU");
        
         ptHU1 = hu{iCase};        
         ptHU_txt = strcat("IV contrast level in Pulmonary Trunk -> ", num2str(ptHU1), " HU");
-        ptLoc = ptLoc{iCase};  
+        ptLoc_s = ptLoc{iCase};  
         
         traDia1 = round(traDia{iCase});
         traDia_txt = strcat("Diameter of the Trachea -> ", num2str(traDia1), " mm");
