@@ -1,8 +1,17 @@
 # Automated Detection, Segmentation and Measurement of Major Vessels and the Trachea in CT Pulmonary Angiography
 #### A fully automated deterministic approach for mediastinal structures analysis 
-> Git repo for an unpublished manuscript of "Automated Detection, Segmentation and Measurement of Major Vessels and the Trachea in CT Pulmonary Angiography", which is currently under review at a scientific journal.
+
+## Citing this work
+>Please cite the [following paper](https://www.nature.com/articles/s41598-023-45509-1) when using CADe Model:
+>
+    Kahraman, A.T., Fröding, T., Toumpanakis, D. , Sladoje, N., Sjöblom, T. Automated detection, segmentation and measurement of major vessels and the trachea in CT pulmonary angiography.
+    Sci Rep 13, 18407 (2023). https://doi.org/10.1038/s41598-023-45509-1
+
+ 
+
 
 > For more detail, please see our [Patent Cooperation Treaty (pct)](https://patents.google.com/patent/WO2022164374A1) application.
+
 
 
 
